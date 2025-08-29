@@ -162,22 +162,21 @@ div.conexao {
     border-left: 7px solid var(--destaques-botoes);
     
 }
-    .especialidade {
-        display: grid;
-        grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)) ;
-        gap: var(--espaco-m);
-        padding: var(--espaco-g);
-
-    }
-    .secao-especialidade {
-        padding: 20px 10px
-    }
-    .grid-especialidade {
-        padding: 10px;
-        border-radius: 5px;
-        border: 2px solid var(--cor-secundaria);
-        box-shadow: 1px 1px 3px var(--cor-principal);
-    }
+.especialidade {
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)) ;
+    gap: var(--espaco-m);
+    padding: var(--espaco-g);
+}
+.secao-especialidade {
+    padding: 20px 10px
+}
+.grid-especialidade {
+    padding: 10px;
+    border-radius: 5px;
+     border: 2px solid var(--cor-secundaria);
+    box-shadow: 1px 1px 3px var(--cor-principal);
+}
     /*fim especialidades*/
     section.projeto {
         padding: var(--espaco-xl) var(--espaco-g);
@@ -187,7 +186,7 @@ div.conexao {
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
-        padding: 20px;
+        padding: var(--espaco-m);
         gap: var(--espaco-xl);
     }
     div.projeto-img img {
@@ -367,6 +366,9 @@ div.conexao {
     }
     .especialidade {
         grid-template-columns: auto;
+    }
+    section.projeto {
+        padding: var(--espaco-p) var(--espaco-p);
     }
     div.projeto-flex {
         flex-direction: column;
