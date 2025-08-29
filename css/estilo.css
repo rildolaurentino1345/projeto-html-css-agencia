@@ -162,21 +162,25 @@ div.conexao {
     border-left: 7px solid var(--destaques-botoes);
     
 }
-.especialidade {
-    display: grid;
-    grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)) ;
-    gap: var(--espaco-m);
-    padding: var(--espaco-g);
-}
-.secao-especialidade {
-    padding: 20px 10px
-}
-.grid-especialidade {
-    padding: 10px;
-    border-radius: 5px;
-     border: 2px solid var(--cor-secundaria);
-    box-shadow: 1px 1px 3px var(--cor-principal);
-}
+    .especialidade {
+        display: grid;
+        grid-template-columns:repeat(auto-fit, minmax(220px, 1fr)) ;
+        gap: var(--espaco-m);
+        padding: var(--espaco-g);
+
+    }
+    .especialidade-titulo {
+        padding: 0 var(--espaco-g) ;
+    }
+    .secao-especialidade {
+        padding: 20px 10px
+    }
+    .grid-especialidade {
+        padding: 10px;
+        border-radius: 5px;
+        border: 2px solid var(--cor-secundaria);
+        box-shadow: 1px 1px 3px var(--cor-principal);
+    }
     /*fim especialidades*/
     section.projeto {
         padding: var(--espaco-xl) var(--espaco-g);
@@ -186,7 +190,7 @@ div.conexao {
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
-        padding: var(--espaco-m);
+        padding: 20px;
         gap: var(--espaco-xl);
     }
     div.projeto-img img {
@@ -248,6 +252,9 @@ div.conexao {
         padding: var(--espaco-m);
         color: var(--texto);
     }
+    .footer-fim {
+        padding: 0 var(--espaco-p) ;
+    }
 
     div.sobre {
         display: flex;
@@ -257,8 +264,7 @@ div.conexao {
         border: 2px solid var(--destaques-botoes);
         border-radius: 5px;
         gap: var(--espaco-m);
-        margin-bottom: var(--espaco-p);
-        
+        margin-bottom: var(--espaco-m);
     }
     div.sobre-nos {
         width: 100%;
@@ -368,12 +374,12 @@ div.conexao {
     .especialidade {
         grid-template-columns: auto;
     }
-    section.projeto {
-        padding: var(--espaco-p) var(--espaco-p);
-    }
     div.projeto-flex {
         flex-direction: column;
         justify-content: center;
+    }
+    div.sobre {
+        padding: var(--espaco-m) 0;
     }
 
       div.rede-sociais ul li a i {
