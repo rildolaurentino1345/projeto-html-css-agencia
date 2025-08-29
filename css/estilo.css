@@ -257,7 +257,8 @@ div.conexao {
         border: 2px solid var(--destaques-botoes);
         border-radius: 5px;
         gap: var(--espaco-m);
-        margin-bottom: var(--espaco-m);
+        margin-bottom: var(--espaco-p);
+        
     }
     div.sobre-nos {
         width: 100%;
